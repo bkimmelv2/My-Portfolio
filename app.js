@@ -1,0 +1,3 @@
+// MIGHT NOT NEED JS FOR THIS //
+
+console.log('I AM CONNECTED')
