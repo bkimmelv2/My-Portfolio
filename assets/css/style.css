@@ -1,3 +1,63 @@
-* {
-    background-color: pink;
+body, html {
+    background-color: #292929;
+    color: #E2E2E2;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container.center-view#mainContainer,
+.container.center-view#aboutMe {
+    display: flex;
+}
+
+#projects {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    padding-top: 50px;
+}
+
+@keyframes fadeInFromTop {
+    0% {
+        opacity: 0;
+        transform: translateY(-20%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeInFromTop 0.8s ease-out;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+a {
+    color: #E2E2E2;
+    text-decoration: none;
+}
+
+#projects > section, #aboutMe > section {
+    display: none;
 }
