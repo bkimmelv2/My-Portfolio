@@ -10,8 +10,8 @@ body, html {
 #projectsGrid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    gap: 30px;
-    padding: 30px;
+    gap: 20px;
+    padding: 20px;
     max-width: 1000px;
 }
 
@@ -133,4 +133,36 @@ a {
 
 #projects > section, #aboutMe > section {
     display: none;
+}
+
+@media (max-width: 768px) {
+    #projectsGrid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .project-item p {
+        font-size: 12px; /* Smaller font size for narrower screens */
+    }
+
+    .project-header {
+        padding: 10px 15px; /* Reduce padding in header */
+    }
+}
+
+@media (max-width: 480px) {
+    #projectsGrid {
+        grid-template-columns: 1fr; /* Single column on very small screens */
+        padding: 10px;
+    }
+
+    .project-item p {
+        font-size: 12px;
+    }
+
+    button {
+        padding: 8px 15px; /* Smaller buttons */
+        font-size: 14px;
+    }
 }
