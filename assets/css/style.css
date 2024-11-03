@@ -141,7 +141,7 @@ a {
 }
 
 .container.center-view#mainContainer > div {
-    margin-top: -300px;
+    margin-top: -350px;
 }
 
 @media (max-width: 768px) {
@@ -178,5 +178,9 @@ a {
     #aboutMe p {
         font-size: 14px;
         max-width: 90%;
+    }
+
+    .container.center-view#mainContainer > div {
+        margin-top: 0;
     }
 }
