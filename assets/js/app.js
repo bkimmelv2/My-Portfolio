@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('aboutMeBtn').addEventListener('click', () => {
-        switchSection(main, aboutMe, false);
+        switchSection(main, aboutMe, true);
     });
 
     document.getElementById('projectsToHomeBtn').addEventListener('click', () => {

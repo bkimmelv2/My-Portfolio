@@ -143,17 +143,17 @@ a {
     }
 
     .project-item p {
-        font-size: 12px; /* Smaller font size for narrower screens */
+        font-size: 12px;
     }
 
     .project-header {
-        padding: 10px 15px; /* Reduce padding in header */
+        padding: 10px 15px;
     }
 }
 
 @media (max-width: 480px) {
     #projectsGrid {
-        grid-template-columns: 1fr; /* Single column on very small screens */
+        grid-template-columns: 1fr;
         padding: 10px;
     }
 
@@ -162,7 +162,7 @@ a {
     }
 
     button {
-        padding: 8px 15px; /* Smaller buttons */
+        padding: 8px 15px;
         font-size: 14px;
     }
 }
