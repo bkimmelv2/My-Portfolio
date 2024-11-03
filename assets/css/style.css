@@ -44,13 +44,13 @@ body, html {
     display: none;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container.center-view#mainContainer,
 .container.center-view#aboutMe {
     display: flex;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 #projects, #aboutMe {
@@ -122,8 +122,8 @@ a {
     color: #D6D6D3;
     line-height: 1.6;
     font-size: 16px;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 800px;
+    margin: 0 auto 20px;
     text-align: justify;
 }
 
@@ -164,5 +164,10 @@ a {
     button {
         padding: 8px 15px;
         font-size: 14px;
+    }
+
+    #aboutMe p {
+        font-size: 14px;
+        max-width: 90%;
     }
 }
