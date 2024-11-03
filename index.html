@@ -10,7 +10,7 @@
 <body>
     <div class="container center-view" id="mainContainer">
         <div>
-            <h5>Hello, my name is</h5>
+            <h4>Hello, my name is</h4>
             <h1>Baylee Kimmel</h1>
             <h3>Software Engineer</h3>
             <button id="projectsBtn">My Projects</button>
@@ -20,21 +20,53 @@
 
     <div class="container" id="projects">
         <section>
-            <h1>My Projects</h1>
-            <ul>
-                <li><a href="#">Blackjack</a></li>
-                <li><a href="#">The House</a></li>
-                <li><a href="#">Patient Portal</a></li>
-                <li><a href="#">Goodnight-o-tron</a></li>
-            </ul>
-            <button id="projectsToHomeBtn">Back to Home</button>
+            <header class="project-header">
+                <h1>My Projects</h1>
+                <button id="projectsToHomeBtn">Back to Home</button>
+            </header>
+            <div id="projectsGrid">
+                <div class="project-item">
+                    <a href="https://a-game-of-blackjack.netlify.app/">
+                        <img src="assets/images/BlackjackIMG.png" alt="Blackjack Project">
+                        <p>Blackjack - A simple card game against a computer controlled dealer.</p>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <a href="https://the-house-game.netlify.app/">
+                        <img src="assets/images/HouseIMG.png" alt="The House Project">
+                        <p>The House - An interactive point and click puzzle game.</p>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <a href="https://patient-portal-app-d08b8f3a655a.herokuapp.com/patients">
+                        <img src="assets/images/PatientsIMG.png" alt="Patient Portal Project">
+                        <p>Patient Portal - A simulated patient management system.</p>
+                    </a>
+                </div>
+                <div class="project-item">
+                    <a href="https://goodnight-o-tron.netlify.app/">
+                        <img src="assets/images/GoodnightIMG.png" alt="Goodnight-o-tron Project">
+                        <p>Goodnight-o-tron - A random book generator for tired parents.</p>
+                    </a>
+                </div>
+            </div>
         </section>
     </div>
 
     <div class="container center-view" id="aboutMe">
         <section>
             <h1>About Me</h1>
-            <p>This is a brief description about myself.</p>
+            <p>My name is Baylee Kimmel, and I am a Software Engineer with a passion for developing simple and effective solutions to complex problems. With a strong foundation in analytical thinking and problem-solving, I have successfully tackled diverse challenges in software development. I am eager to apply my reliability, determination, and enthusiasm to drive meaningful progress and innovation across various industries.
+            </br></br>
+            I am a self-motivated individual with a strong work ethic and a passion for continuous learning. I am committed to staying up-to-date with the latest technologies and trends in the field, and I believe that continuous improvement is essential for success. I am also a team player who values collaboration and open communication, and I strive to create a positive and inclusive work environment.
+            </br></br>
+            In my free time, I enjoy spending time with my daughter, playing piano, and solving puzzles. I am always looking for ways to challenge myself and grow as a person, and I am excited to continue learning and expanding my skillset.
+            </p>
+            <div style="margin-top: 20px;">
+                <a href="https://www.linkedin.com/in/bayleekimmel/" target="_blank">
+                    <img src="assets/images/LI-Logo.png" alt="LinkedIn Profile" style="width: 150px; height: auto; margin-top: 20px;">
+                </a>
+            </div>
             <button id="aboutMeToHomeBtn">Back to Home</button>
         </section>
     </div>
