@@ -58,7 +58,7 @@ body, html {
     justify-content: center;
     align-items: flex-start;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 @keyframes fadeInFromTop {
@@ -133,6 +133,15 @@ a {
 
 #projects > section, #aboutMe > section {
     display: none;
+}
+
+.profile-picture {
+    width: 300px; /* Adjust size as needed */
+    max-height: auto;
+}
+
+.container.center-view#mainContainer > div {
+    margin-top: -400px;
 }
 
 @media (max-width: 768px) {
